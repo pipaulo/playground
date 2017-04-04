@@ -1,0 +1,29 @@
+show virtual-service list
+show virtual-service detail
+show virtual-service profile name ISR-WAAS
+show virtual-service profile name ISR-WAAS detail
+show service-insertion status
+show service-insertion appnav-controller-group
+show service-insertion service-node-group all
+
+show class-map type appnav
+show policy-map type appnav
+show policy-map target service-context waas/1
+
+show service-insertion service-context waas/1
+
+show service-insertion statistics appnav-controller-group
+show service-insertion statistics service-node
+show service-insertion statistics service-context
+show service-insertion statistics connection
+
+show policy-map target service-context waas/1
+
+show policy-map target service-context waas/1 class c4 passthru-reason
+
+show service-insertion alarms detail
+show service-insertion service-node-group sng
+
+virtual-service connect name AUTOWAAS console
+
+New text for editing testing
